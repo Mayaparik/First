@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>js</title>
+</head>
+
+<body>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   <script>
+
+
+
+      ////
+
+      let arr = ["apple", "kiwi", "mango",]
+      console.log(Array.isArray(arr));
+
+      /////     
+
+      let most = {
+         cls: 12,
+         subject: "ART",
+         books: 5
+      }
+      console.log(Array.isArray(most));
+
+      /////
+
+      // let chal = [1, 2, 3, 4, 5, 6, 7,]
+      // chal.push(10, 11, 12, 13,);
+      // console.log(chal);
+
+/////
+let movies = ["holiday", "shershah", "veer", "bhag-milka", "gunjan-saksena"]
+console.log(movies.length);
+
+////
+let cartoon = ["mickey-mouse","ben-10","doraemon"]
+console.log(cartoon.toString());
+console.log(cartoon.join(" & "));
+
+////
+let vegetableName = ["tomato", "potato", "cucumber", "onion","capsicum"];
+console.log(vegetableName);
+console.log(vegetableName.pop());
+console.log(vegetableName);
+console.log(vegetableName.shift());
+console.log(vegetableName);
+
+////
+let girls = ["manu", "nicky", "sana", "sara", "sofia"]
+console.log(girls.push("mona"));
+console.log(girls);
+
+console.log(girls.unshift("minal"));
+console.log(girls);
+
+////
+
+let fruit = ["banana", "orange", "apple", "mango"]
+delete fruit[2];
+console.log(fruit);
+
+////
+
+
+let evenNumber = ["2", "4", "6"];
+
+let oddNumber = ["1", "3", "5",];
+
+console.log(oddNumber.concat(evenNumber)); 
+
+
+////
+
+let num = [[0, 1, 2, 3],[4, 5, 6, 7],[8, 9, 10, 11, 12],[13, 14, 15, 16]];
+
+console.log(num.flat());
+
+/////
+
+let fruits = ["strawberry", "grape", "watermelon", "blueberry", "lemon"]
+// console.log(fruits.splice(0, 2, "apple", "orange", "mango"));
+
+fruits.splice(4, 0, "apple", "orange", "mango");
+console.log(fruits);
+
+///
+
+let cities = ["bikener", "churu", "sikar", "shriganganager", "jaipur", "kota", "ajmer"];
+console.log(cities)
+cities.slice(3);
+console.log(cities);
+
+
+/////
+let states = ["rajasthan", "punjab", "haryana", "UP", "gujrat", "maharastra", "UP", "UP", "UP", "punjab"]
+//indexOf
+console.log(states.indexOf("punjab") + 2 );
+//lastIndexOf
+console.log(states.lastIndexOf("UP"));
+console.log(states.indexOf("Up"));
+//includes
+console.log(states.includes("goa"));
+
+console.log(states.includes("rajasthan"));
+///find 
+let count = [3, 5, 8, 10, 13, 21, 23, 56]
+let number = count.find(firstFunction);
+
+function firstFunction() {
+   return count > 21;
+   
+}
+
+
+
+////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      // let hrr = [99, 56, 101, 54, 23, 44, 53, 89, 76, 6]
+      // hrr.sort((a, b) => (a - b));
+      // console.log(hrr);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </script>
+</body>
+
+</html>
